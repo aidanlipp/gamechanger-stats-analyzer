@@ -21,7 +21,7 @@ input[type="file"]::-webkit-file-upload-button {
 input[type="file"]::before {
   content: 'Choose CSV File';
   display: inline-block;
-  background: linear-gradient(top, #f9f9f9, #e3e3e3);
+  background: linear-gradient(to bottom, #f9f9f9, #e3e3e3); /* Updated syntax */
   border: 1px solid #999;
   border-radius: 3px;
   padding: 5px 8px;
@@ -38,7 +38,7 @@ input[type="file"]:hover::before {
 }
 
 input[type="file"]:active::before {
-  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  background: linear-gradient(to bottom, #e3e3e3, #f9f9f9); /* Updated syntax */
 }
 
 /* Smooth transitions */
