@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gamechanger-stats-analyzer/static/css/main.c954947c.css",
+    "main.js": "/gamechanger-stats-analyzer/static/js/main.61154c81.js",
+    "index.html": "/gamechanger-stats-analyzer/index.html",
+    "main.c954947c.css.map": "/gamechanger-stats-analyzer/static/css/main.c954947c.css.map",
+    "main.61154c81.js.map": "/gamechanger-stats-analyzer/static/js/main.61154c81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c954947c.css",
+    "static/js/main.61154c81.js"
+  ]
+}
