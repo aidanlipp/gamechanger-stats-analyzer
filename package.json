@@ -2,7 +2,7 @@
   "name": "gamechanger-stats-analyzer",
   "version": "1.0.0",
   "description": "A React app for analyzing GameChanger baseball statistics CSV exports",
-  "homepage": "https://aidanlipp.github.io/gamechanger-stats-analyzer",
+  "homepage": "https://aidanlipp.github.io/gamechanger-stats-analyzer/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
