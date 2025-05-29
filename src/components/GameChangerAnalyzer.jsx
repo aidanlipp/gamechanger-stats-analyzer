@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Upload, BarChart3, Users, Trophy, Target, TrendingUp, AlertTriangle } from 'lucide-react';
+import { Upload, BarChart3, Users, Trophy, Target, TrendingUp } from 'lucide-react';
 
 const GameChangerAnalyzer = () => {
   const [csvData, setCsvData] = useState(null);
@@ -118,9 +118,6 @@ const GameChangerAnalyzer = () => {
 
   const PlayerBattingAnalysis = ({ player }) => {
     const stats = player.batting;
-    const avg = parseFloat(stats.AVG) || 0;
-    const obp = parseFloat(stats.OBP) || 0;
-    const ops = parseFloat(stats.OPS) || 0;
     
     return (
       <div className="space-y-6">
